@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7121AA7D1FB0082C7CF /* AppDelegate.swift */; };
+		30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7141AA7D1FB0082C7CF /* ViewController.swift */; };
+		30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7161AA7D1FB0082C7CF /* Flux.xcdatamodeld */; };
+		30FDF71A1AA7D1FB0082C7CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF7191AA7D1FB0082C7CF /* Images.xcassets */; };
+		30FDF71D1AA7D1FB0082C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF71B1AA7D1FB0082C7CF /* Main.storyboard */; };
+		30FDF7291AA7D1FB0082C7CF /* FluxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30FDF7231AA7D1FB0082C7CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FDF7051AA7D1FB0082C7CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FDF70C1AA7D1FB0082C7CF;
+			remoteInfo = Flux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FDF70D1AA7D1FB0082C7CF /* Flux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FDF7111AA7D1FB0082C7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FDF7121AA7D1FB0082C7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30FDF7141AA7D1FB0082C7CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30FDF7171AA7D1FB0082C7CF /* Flux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flux.xcdatamodel; sourceTree = "<group>"; };
+		30FDF7191AA7D1FB0082C7CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30FDF71C1AA7D1FB0082C7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FDF7221AA7D1FB0082C7CF /* FluxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FDF7271AA7D1FB0082C7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FDF70A1AA7D1FB0082C7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FDF71F1AA7D1FB0082C7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FDF7041AA7D1FB0082C7CF = {
+			isa = PBXGroup;
+			children = (
+				30FDF70F1AA7D1FB0082C7CF /* Flux */,
+				30FDF7251AA7D1FB0082C7CF /* FluxTests */,
+				30FDF70E1AA7D1FB0082C7CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FDF70E1AA7D1FB0082C7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF70D1AA7D1FB0082C7CF /* Flux.app */,
+				30FDF7221AA7D1FB0082C7CF /* FluxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FDF70F1AA7D1FB0082C7CF /* Flux */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7121AA7D1FB0082C7CF /* AppDelegate.swift */,
+				30FDF7141AA7D1FB0082C7CF /* ViewController.swift */,
+				30FDF7191AA7D1FB0082C7CF /* Images.xcassets */,
+				30FDF71B1AA7D1FB0082C7CF /* Main.storyboard */,
+				30FDF7161AA7D1FB0082C7CF /* Flux.xcdatamodeld */,
+				30FDF7101AA7D1FB0082C7CF /* Supporting Files */,
+			);
+			path = Flux;
+			sourceTree = "<group>";
+		};
+		30FDF7101AA7D1FB0082C7CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7111AA7D1FB0082C7CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30FDF7251AA7D1FB0082C7CF /* FluxTests */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */,
+				30FDF7261AA7D1FB0082C7CF /* Supporting Files */,
+			);
+			path = FluxTests;
+			sourceTree = "<group>";
+		};
+		30FDF7261AA7D1FB0082C7CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7271AA7D1FB0082C7CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FDF70C1AA7D1FB0082C7CF /* Flux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FDF72C1AA7D1FB0082C7CF /* Build configuration list for PBXNativeTarget "Flux" */;
+			buildPhases = (
+				30FDF7091AA7D1FB0082C7CF /* Sources */,
+				30FDF70A1AA7D1FB0082C7CF /* Frameworks */,
+				30FDF70B1AA7D1FB0082C7CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flux;
+			productName = Flux;
+			productReference = 30FDF70D1AA7D1FB0082C7CF /* Flux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FDF7211AA7D1FB0082C7CF /* FluxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FDF72F1AA7D1FB0082C7CF /* Build configuration list for PBXNativeTarget "FluxTests" */;
+			buildPhases = (
+				30FDF71E1AA7D1FB0082C7CF /* Sources */,
+				30FDF71F1AA7D1FB0082C7CF /* Frameworks */,
+				30FDF7201AA7D1FB0082C7CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FDF7241AA7D1FB0082C7CF /* PBXTargetDependency */,
+			);
+			name = FluxTests;
+			productName = FluxTests;
+			productReference = 30FDF7221AA7D1FB0082C7CF /* FluxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FDF7051AA7D1FB0082C7CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dallin Lauritzen";
+				TargetAttributes = {
+					30FDF70C1AA7D1FB0082C7CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					30FDF7211AA7D1FB0082C7CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 30FDF70C1AA7D1FB0082C7CF;
+					};
+				};
+			};
+			buildConfigurationList = 30FDF7081AA7D1FB0082C7CF /* Build configuration list for PBXProject "Flux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FDF7041AA7D1FB0082C7CF;
+			productRefGroup = 30FDF70E1AA7D1FB0082C7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FDF70C1AA7D1FB0082C7CF /* Flux */,
+				30FDF7211AA7D1FB0082C7CF /* FluxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FDF70B1AA7D1FB0082C7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDF71A1AA7D1FB0082C7CF /* Images.xcassets in Resources */,
+				30FDF71D1AA7D1FB0082C7CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FDF7201AA7D1FB0082C7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FDF7091AA7D1FB0082C7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */,
+				30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */,
+				30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FDF71E1AA7D1FB0082C7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDF7291AA7D1FB0082C7CF /* FluxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FDF7241AA7D1FB0082C7CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FDF70C1AA7D1FB0082C7CF /* Flux */;
+			targetProxy = 30FDF7231AA7D1FB0082C7CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30FDF71B1AA7D1FB0082C7CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FDF71C1AA7D1FB0082C7CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FDF72A1AA7D1FB0082C7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FDF72B1AA7D1FB0082C7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30FDF72D1AA7D1FB0082C7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Flux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30FDF72E1AA7D1FB0082C7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Flux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30FDF7301AA7D1FB0082C7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FluxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flux.app/Contents/MacOS/Flux";
+			};
+			name = Debug;
+		};
+		30FDF7311AA7D1FB0082C7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FluxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flux.app/Contents/MacOS/Flux";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FDF7081AA7D1FB0082C7CF /* Build configuration list for PBXProject "Flux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FDF72A1AA7D1FB0082C7CF /* Debug */,
+				30FDF72B1AA7D1FB0082C7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FDF72C1AA7D1FB0082C7CF /* Build configuration list for PBXNativeTarget "Flux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FDF72D1AA7D1FB0082C7CF /* Debug */,
+				30FDF72E1AA7D1FB0082C7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30FDF72F1AA7D1FB0082C7CF /* Build configuration list for PBXNativeTarget "FluxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FDF7301AA7D1FB0082C7CF /* Debug */,
+				30FDF7311AA7D1FB0082C7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30FDF7161AA7D1FB0082C7CF /* Flux.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30FDF7171AA7D1FB0082C7CF /* Flux.xcdatamodel */,
+			);
+			currentVersion = 30FDF7171AA7D1FB0082C7CF /* Flux.xcdatamodel */;
+			path = Flux.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30FDF7051AA7D1FB0082C7CF /* Project object */;
+}
