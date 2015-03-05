@@ -13,6 +13,9 @@
 		30FDF71A1AA7D1FB0082C7CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF7191AA7D1FB0082C7CF /* Images.xcassets */; };
 		30FDF71D1AA7D1FB0082C7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF71B1AA7D1FB0082C7CF /* Main.storyboard */; };
 		30FDF7291AA7D1FB0082C7CF /* FluxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */; };
+		30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
+		30FDF7351AA7E3DD0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
+		30FDF7381AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 		30FDF7221AA7D1FB0082C7CF /* FluxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FDF7271AA7D1FB0082C7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxTests.swift; sourceTree = "<group>"; };
+		30FDF7331AA7D21A0082C7CF /* bencoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bencoding.swift; sourceTree = "<group>"; };
+		30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubuntu-14.10-desktop-amd64.iso.torrent"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 		30FDF7041AA7D1FB0082C7CF = {
 			isa = PBXGroup;
 			children = (
+				30FDF7321AA7D2110082C7CF /* BTP */,
 				30FDF70F1AA7D1FB0082C7CF /* Flux */,
 				30FDF7251AA7D1FB0082C7CF /* FluxTests */,
 				30FDF70E1AA7D1FB0082C7CF /* Products */,
@@ -98,6 +104,7 @@
 		30FDF7251AA7D1FB0082C7CF /* FluxTests */ = {
 			isa = PBXGroup;
 			children = (
+				30FDF7361AA7F0210082C7CF /* TestData */,
 				30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */,
 				30FDF7261AA7D1FB0082C7CF /* Supporting Files */,
 			);
@@ -110,6 +117,22 @@
 				30FDF7271AA7D1FB0082C7CF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30FDF7321AA7D2110082C7CF /* BTP */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7331AA7D21A0082C7CF /* bencoding.swift */,
+			);
+			path = BTP;
+			sourceTree = "<group>";
+		};
+		30FDF7361AA7F0210082C7CF /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */,
+			);
+			path = TestData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FDF7381AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +238,7 @@
 				30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */,
 				30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */,
 				30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */,
+				30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30FDF7291AA7D1FB0082C7CF /* FluxTests.swift in Sources */,
+				30FDF7351AA7E3DD0082C7CF /* bencoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
