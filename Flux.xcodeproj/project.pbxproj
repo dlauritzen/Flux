@@ -16,6 +16,7 @@
 		30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
 		30FDF7351AA7E3DD0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
 		30FDF7381AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */; };
+		30FDF73A1AA8A1420082C7CF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7391AA8A1420082C7CF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxTests.swift; sourceTree = "<group>"; };
 		30FDF7331AA7D21A0082C7CF /* bencoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bencoding.swift; sourceTree = "<group>"; };
 		30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubuntu-14.10-desktop-amd64.iso.torrent"; sourceTree = "<group>"; };
+		30FDF7391AA8A1420082C7CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				30FDF7111AA7D1FB0082C7CF /* Info.plist */,
+				30FDF7391AA8A1420082C7CF /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */,
 				30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */,
+				30FDF73A1AA8A1420082C7CF /* README.md in Sources */,
 				30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */,
 				30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */,
 			);
@@ -427,6 +431,7 @@
 				30FDF72E1AA7D1FB0082C7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30FDF72F1AA7D1FB0082C7CF /* Build configuration list for PBXNativeTarget "FluxTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +440,7 @@
 				30FDF7311AA7D1FB0082C7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
