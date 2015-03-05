@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B58FF31AA8A32C007E96C1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30B58FF21AA8A32C007E96C1 /* README.md */; };
 		30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7121AA7D1FB0082C7CF /* AppDelegate.swift */; };
 		30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7141AA7D1FB0082C7CF /* ViewController.swift */; };
 		30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7161AA7D1FB0082C7CF /* Flux.xcdatamodeld */; };
@@ -16,7 +17,6 @@
 		30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
 		30FDF7351AA7E3DD0082C7CF /* bencoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7331AA7D21A0082C7CF /* bencoding.swift */; };
 		30FDF7381AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent in Resources */ = {isa = PBXBuildFile; fileRef = 30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */; };
-		30FDF73A1AA8A1420082C7CF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 30FDF7391AA8A1420082C7CF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30B58FF21AA8A32C007E96C1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		30FDF70D1AA7D1FB0082C7CF /* Flux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FDF7111AA7D1FB0082C7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FDF7121AA7D1FB0082C7CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		30FDF7281AA7D1FB0082C7CF /* FluxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluxTests.swift; sourceTree = "<group>"; };
 		30FDF7331AA7D21A0082C7CF /* bencoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bencoding.swift; sourceTree = "<group>"; };
 		30FDF7371AA7F0210082C7CF /* ubuntu-14.10-desktop-amd64.iso.torrent */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ubuntu-14.10-desktop-amd64.iso.torrent"; sourceTree = "<group>"; };
-		30FDF7391AA8A1420082C7CF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				30FDF7111AA7D1FB0082C7CF /* Info.plist */,
-				30FDF7391AA8A1420082C7CF /* README.md */,
+				30B58FF21AA8A32C007E96C1 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			files = (
 				30FDF7181AA7D1FB0082C7CF /* Flux.xcdatamodeld in Sources */,
 				30FDF7151AA7D1FB0082C7CF /* ViewController.swift in Sources */,
-				30FDF73A1AA8A1420082C7CF /* README.md in Sources */,
+				30B58FF31AA8A32C007E96C1 /* README.md in Sources */,
 				30FDF7131AA7D1FB0082C7CF /* AppDelegate.swift in Sources */,
 				30FDF7341AA7D21A0082C7CF /* bencoding.swift in Sources */,
 			);
